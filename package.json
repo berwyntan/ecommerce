@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/berwyntan/ecommerce#readme",
   "devDependencies": {
+    "cypress": "^11.2.0",
     "turbo": "^1.6.3"
   },
   "workspaces": [
