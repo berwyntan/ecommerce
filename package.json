@@ -1,0 +1,32 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "cd apps/server && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berwyntan/ecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berwyntan/ecommerce/issues"
+  },
+  "homepage": "https://github.com/berwyntan/ecommerce#readme",
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "vite": "^3.2.4"
+  }
+}
